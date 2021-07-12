@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Fake News Detection</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../static/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="#">Fake  <span>News Detection</span></a></div>
+				<a href="#menu" class="toggle"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Abstract</a></li>
+					<li><a href="{{ url_for('login') }}">Login</a></li>
+					<li><a href="{{ url_for('upload') }}">Upload data</a></li>
+					<li><a href="{{ url_for('future') }}">Future</a></li>
+					<li><a href="{{ url_for('chart') }}">chart</a></li>
+					<li><a href="{{ url_for('home') }}">Prediction</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+			<section id="banner" data-video="../static/images/video2">
+				<div class="inner">
+					<h1>FAKEDETECTOR: Effective Fake News Detection
+with Deep Diffusive Neural Network
+</h1>
+					 
+					<a href="#one" class="button special scrolly">Abstract</a>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div>
+						<div class="box">
+							 
+							<div class="content">
+								<header class="align-center">
+									<h2>Abstract</h2>
+								 
+								</header>
+								<hr />
+								<p> In recent years, due to the booming development
+of online social networks, fake news for various commercial
+and political purposes has been appearing in large numbers
+and widespread in the online world. With deceptive words,
+online social network users can get infected by these online
+fake news easily, which has brought about tremendous effects
+on the offline society already. An important goal in improving
+the trustworthiness of information in online social networks is to
+identify the fake news timely. This paper aims at investigating the
+principles, methodologies and algorithms for detecting fake news
+articles, creators and subjects from online social networks and
+evaluating the corresponding performance. This paper addresses
+the challenges introduced by the unknown characteristics of
+fake news and diverse connections among news articles, creators
+and subjects. This paper introduces a novel gated graph neural
+network, namely FAKEDETECTOR. Based on a set of explicit
+and latent features extracted from the textual information,
+FAKEDETECTOR builds a deep diffusive network model to
+learn the representations of news articles, creators and subjects
+simultaneously. Extensive experiments have been done on a
+real-world fake news dataset to compare FAKEDETECTOR with
+several state-of-the-art models</p>
+								    
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		 
+
+		 
+		<!-- Scripts -->
+			<script src="../static/js/jquery.min.js"></script>
+			<script src="../static/js/jquery.scrolly.min.js"></script>
+			<script src="../static/js/jquery.scrollex.min.js"></script>
+			<script src="../static/js/skel.min.js"></script>
+			<script src="../static/js/util.js"></script>
+			<script src="../static/js/main.js"></script>
+
+	</body>
+</html>
